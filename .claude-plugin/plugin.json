@@ -1,0 +1,16 @@
+{
+ "name": "youtube-views",
+ "version": "0.1.0",
+ "description": "A Views panel beside Claude Code with live view counts on the latest upload of each YouTube channel you name",
+ "author": { "name": "Syed Haris", "url": "https://github.com/syedharis14" },
+ "license": "MIT",
+ "types": "./types/index.d.ts",
+ "userConfig": {
+  "channels": {
+   "type": "string",
+   "title": "YouTube channels",
+   "description": "Comma-separated channel IDs (they start with UC), each optionally named: My Channel=UCxxxx, UCyyyy",
+   "default": ""
+  }
+ }
+}
