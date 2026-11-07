@@ -1,4 +1,5 @@
-export type Row = { channel: string; title: string; views: number; published: string; checkedAt: number; error?: string }
+export type Item = { title: string; views: string }
+export type Row = { channel: string; long?: Item; short?: Item; checkedAt: number; error?: string }
 
 declare module 'claude-code' {
   interface PluginState {
